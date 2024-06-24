@@ -2,6 +2,9 @@ import React from "react";
 
 import styled from "styled-components";
 
+// Sections
+import Video from "../components/video";
+
 // Layout
 import LayoutPrimary from "../layouts/layout-primary";
 import breakpoint from "../utils/breakpoints";
@@ -19,7 +22,7 @@ const StyledHome = styled.main`
 const Home = () => {
   return (
     <StyledHome>
-      {/* <h1 className="text-center">Esta es la home page</h1> */}
+      <Video />
     </StyledHome>
   );
 };
