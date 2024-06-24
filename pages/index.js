@@ -19,7 +19,7 @@ const StyledHome = styled.main`
 const Home = () => {
   return (
     <StyledHome>
-      <h1 className="text-center">Esta es la home page</h1>
+      {/* <h1 className="text-center">Esta es la home page</h1> */}
     </StyledHome>
   );
 };
