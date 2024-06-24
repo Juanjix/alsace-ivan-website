@@ -9,7 +9,6 @@ const PrimaryLayout = ({ children }) => {
     <>
       <GlobalStyles />
       <main>{children}</main>
-      <Footer />
     </>
   );
 };

@@ -6,12 +6,6 @@ import styled from "styled-components";
 import LayoutPrimary from "../layouts/layout-primary";
 import breakpoint from "../utils/breakpoints";
 
-// Sections
-import Hero from "../components/hero";
-import Tecnologies from "../components/tecnologies";
-import Services from "../components/services";
-import Clients from "../components/clients";
-
 const StyledHome = styled.main`
   section {
     padding: 96px 0 24px 0;
@@ -25,10 +19,7 @@ const StyledHome = styled.main`
 const Home = () => {
   return (
     <StyledHome>
-      <Hero />
-      <Services />
-      <Tecnologies />
-      <Clients />
+      <h1 className="text-center">Esta es la home page</h1>
     </StyledHome>
   );
 };
